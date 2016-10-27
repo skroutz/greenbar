@@ -24,7 +24,7 @@ defmodule Greenbar.Mixfile do
     [
       # Direct dependencies
       {:piper, github: "operable/piper", tag: "0.15.0"},
-      {:greenbar_markdown, github: "operable/greenbar_markdown", tag: "0.15.0"},
+      {:greenbar_markdown, github: "operable/greenbar_markdown", ref: "9fedd09b1dacdddc30fe6d65a7e031a31cfb6252"},
 
       # Test and Development
       {:mix_test_watch, "~> 0.2", only: [:dev, :test]},
